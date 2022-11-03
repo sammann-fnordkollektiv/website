@@ -42,7 +42,7 @@ sockets to make sure the agent is enabled on start up.
 
 ```shell
 $ systemctl --user enable --now gpg-agent.socket
-$ sytsemctl --user enable --now gpg-agent-ssh.socket
+$ systemctl --user enable --now gpg-agent-ssh.socket
 ```
 
 Then, update `SSH_AUTH_SOCK` in your `bashrc` (or equivalent).
